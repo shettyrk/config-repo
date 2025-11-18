@@ -1,0 +1,11 @@
+server:
+  port: 9083
+
+spring:
+  application:
+    name: order-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/order_db_qa
+    username: root
+    password: mypass123

@@ -1,0 +1,5 @@
+server:
+  port: 9761
+spring:
+  application:
+    name: service-discovery
