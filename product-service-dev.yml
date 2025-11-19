@@ -16,6 +16,6 @@ spring:
       ddl-auto: false
     show-sql: false
 
-liquibase:
-  enabled: true
-  change-log: classpath:/db/changelog/master.xml
+  liquibase:
+    enabled: true
+    change-log: classpath:/db/changelog/master.xml
