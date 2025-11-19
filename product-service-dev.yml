@@ -13,8 +13,8 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: update
-    show-sql: true
+      ddl-auto: false
+    show-sql: false
 
 liquibase:
-  enabled: false
+  enabled: true
